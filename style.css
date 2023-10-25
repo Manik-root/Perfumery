@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: goldenrod;
+    color: black;
+    padding: 30px;
+
+}
+h1,li,ul{
+display: inline;
+}
+ul{
+    margin-left: 60%;
+    
+}
+li{
+    padding: 1px;
+    font-size: large;
+    cursor: pointer;
+    
+}
+h1{
+    font-size:35px;
+    font-style: italic;
+    font-weight:bolder;
+}
+li:hover{
+    font-size: 20px;
+}
+.searchbar{
+    padding: 10px;
+    text-align: center;
+}
+input{
+    height: 30px;
+    width: 300px;
+    border-radius: 5px;
+    border-color: darkgray;
+    
+}
+.box{
+        border-color: black;
+        border-radius: 10px;
+        border-style: solid;
+        text-align: center;
+        display: inline-block;
+        width: 250px;
+        margin: 18px;
+        padding: 10px;
+        cursor: pointer;
+}
+.box:hover{
+    background-color: lightgray;
+}
+.content{
+    text-align: center;
+    font-style: normal;
+    font-size: 13px;
+}
+.aboutus{
+    text-align: center;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.contact{
+    text-align: center;
+    padding-bottom: 50px;
+    
+    
+}
